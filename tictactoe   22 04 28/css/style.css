@@ -1,0 +1,78 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/* 100devs tic-tac-toe CSS */
+/* https://github.com/Dev-Corinne/TicTacToe */
+
+
+.game-board{
+     display: grid;
+     grid-template-rows: 200px 200px 200px;
+     grid-template-columns: 200px 200px 200px;
+   }
+   
+   body {
+   display: flex;
+   justify-content: center;
+   }
+   
+   .box {
+   background: rgb(129, 129, 240);
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #AAA;
+   }
+   
+   span {
+     font: 100px;
+     color: black;
+   }
+   
+   .hidden {
+        display: none;
+   }
+   
+   
